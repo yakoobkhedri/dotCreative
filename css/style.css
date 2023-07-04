@@ -1,0 +1,1450 @@
+body {
+   margin: 0;
+}
+
+.cursor-pointer {
+   cursor: pointer;
+}
+
+.text-secondary {
+   color: #ff497c;
+}
+
+.text-success {
+   color: #a0ce4e;
+}
+
+.text-info {
+   color: #00bea3;
+}
+
+.text-orange {
+   color: #f1894c;
+}
+
+header nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   padding: .3rem 3rem;
+   background-color: #1f2732;
+}
+
+header ul {
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+   font-weight: bold;
+}
+
+header ul li {
+   position: relative;
+   cursor: pointer;
+   transition: all .4s;
+}
+
+header ul li:hover,
+.sectionOne>div a:hover,
+.sectionThree>div:first-child a:hover,
+.sectionFour>a:hover,
+.sectionFive .first-a:hover,
+.testimonialSwiper .swiper-slide h2:hover,
+.testimonialSwiper2 .swiper-slide a:hover,
+.sectionSix>a:hover {
+   color: #ff497c;
+}
+
+header nav>div {
+   display: flex;
+   align-items: center;
+   gap: .8rem;
+}
+
+header nav>div>a {
+   display: flex;
+   align-items: center;
+   font-size: 1.2rem;
+}
+
+header nav>div>svg {
+   display: none;
+   cursor: pointer;
+   color: white;
+   border-radius: 1.1rem;
+}
+
+.topSwiper {
+   height: 100vh;
+}
+
+.topSwiper .swiper-slide {
+   position: relative;
+   color: white;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.topSwiper .swiper-slide img {
+   position: absolute;
+   width: 100vw;
+   height: auto;
+   left: 0;
+   right: 0;
+}
+
+.topSwiper .swiper-slide .firstDiv {
+   position: relative;
+   font-size: 1.75rem;
+   padding-top: 20rem;
+   font-weight: bold;
+}
+
+.topSwiper .swiper-slide .secondDiv {
+   position: relative;
+   font-size: 2rem;
+   font-weight: lighter;
+}
+
+.topSwiper .swiper-slide .thirdDiv {
+   position: relative;
+   font-size: 1.75rem;
+   margin-top: 1.5rem;
+}
+
+.topSwiper .swiper-slide .forthDiv {
+   position: relative;
+   color: white;
+   transition: all .4s;
+   margin-top: 3rem;
+   margin-bottom: 14rem;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1.5rem 2rem;
+   border-radius: 2.5rem;
+   cursor: pointer;
+   font-weight: bold;
+   width: 12rem;
+   background-color: #ff497c;
+}
+
+.topSwiper .swiper-slide .forthDiv:hover {
+   border: .1rem solid #ff497c;
+}
+
+.swiper-button-next {
+   background-color: rgba(0, 0, 0, 0.12) !important;
+   color: white !important;
+   font-size: .5rem !important;
+   border-top-left-radius: 5rem;
+   border-bottom-left-radius: 5rem;
+   display: block;
+   transition: all .4s;
+   width: 16.7rem !important;
+   right: -10.5rem !important;
+   height: 3.6rem !important;
+}
+
+.swiper-button-prev {
+   background-color: rgba(0, 0, 0, 0.12) !important;
+   color: white !important;
+   font-size: .5rem !important;
+   border-top-right-radius: 5rem;
+   border-bottom-right-radius: 5rem;
+   display: block;
+   transition: all .4s;
+   width: 16.7rem !important;
+   left: -10.5rem !important;
+   height: 3.6rem !important;
+}
+
+.swiper-button-next:hover {
+   background-color: #ff497c !important;
+   right: -6rem !important;
+}
+
+.swiper-button-prev:hover {
+   background-color: #ff497c !important;
+   left: -6rem !important;
+}
+
+.swiper-button-next::after {
+   font-size: 1.2rem !important;
+   position: relative !important;
+   left: -6rem;
+   top: 2px;
+   transform: rotate(180deg);
+}
+
+.swiper-button-prev::after {
+   font-size: 1.2rem !important;
+   position: relative !important;
+   right: -6rem;
+   top: 2px;
+   transform: rotate(180deg);
+}
+
+.sectionOne {
+   text-align: center;
+   margin-left: 20rem;
+   margin-right: 20rem;
+   position: relative;
+}
+
+.sectionOne::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: -9rem;
+   background-image: url('../img/vertical_line.png');
+   width: 4px;
+   height: 9rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionOne h3 {
+   font-size: 2.2rem;
+   width: 32rem;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10rem;
+   position: relative;
+}
+
+.sectionOne h3::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -12rem;
+   background-image: url('../img/vertical_line.png');
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionOne>p {
+   color: lightgray;
+   width: 50vw;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1.5rem;
+   font-size: .9rem;
+}
+
+.sectionOne>a {
+   position: relative;
+   color: black;
+   transition: all .4s;
+   background-color: transparent;
+   border: 2px solid #ff497c;
+   margin-top: 11rem;
+   margin-bottom: 10rem;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1.5rem 2rem;
+   border-radius: 2.5rem;
+   cursor: pointer;
+   font-weight: bold;
+   width: 15rem;
+   display: block;
+}
+
+.sectionOne>a::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -8.4rem;
+   background-image: url('../img/vertical_line.png');
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionOne>a:hover {
+   color: white;
+   background-color: #ff497c;
+}
+
+.sectionOne>div {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 5rem;
+   text-align: center;
+   position: relative;
+}
+
+.sectionOne>div::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -9.8rem;
+   background-image: url('../img/vertical_line.png');
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionOne>div img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 8rem;
+}
+
+.sectionOne>div a {
+   font-size: 2rem;
+   margin-top: 1.2rem;
+   display: block;
+   font-weight: 700;
+   cursor: pointer;
+   transition: all .4s;
+}
+
+.sectionOne>div p {
+   font-size: 1.1rem;
+   color: gray;
+   margin-top: .7rem;
+}
+
+.sectionTwo {
+   position: relative;
+   padding-top: 11rem;
+   padding-bottom: 11rem;
+   color: white;
+   margin-top: 10rem;
+   background-attachment: fixed;
+   background-image: url('../img/texture_dark.JPG');
+}
+
+.sectionTwo::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: -4px;
+   background-image: url('../img/white_line_big.png');
+   width: 4px;
+   height: 9rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionTwo::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 3.5rem;
+   background-image: url('../img/white_line_big.png');
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionTwo h1 {
+   font-weight: bold;
+   font-size: 12rem;
+}
+
+.sectionTwo .partOne h3 {
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-left: -2.2rem;
+}
+
+.sectionTwo .partTwo h3 {
+   font-size: 2.5rem;
+   margin-right: -2rem;
+   font-weight: bold;
+   z-index: 40;
+}
+
+.sectionTwo .partOne>div:last-child {
+   position: relative;
+}
+
+.sectionTwo .partOne>div:last-child::after {
+   content: '';
+   background-image: url('../img/right_arrow.png');
+   position: absolute;
+   height: 9rem;
+   width: 3rem;
+   background-repeat: no-repeat;
+   bottom: -6rem;
+   right: -2rem;
+}
+
+.sectionTwo .partTwo>div:first-child {
+   position: relative;
+}
+
+.sectionTwo .partTwo>div:first-child::after {
+   content: '';
+   background-image: url('../img/right_arrow.png');
+   position: absolute;
+   height: 9rem;
+   width: 3rem;
+   background-repeat: no-repeat;
+   bottom: -6rem;
+   left: -1.2rem;
+}
+
+.sectionTwo img {
+   border-radius: 100%;
+   width: 16rem;
+   border: .5rem solid gray;
+}
+
+.sectionTwo .partOne p {
+   width: 24rem;
+   font-size: 1.1rem;
+   color: lightgray;
+   text-align: left;
+}
+
+.sectionTwo .partTwo p {
+   width: 24rem;
+   font-size: 1.1rem;
+   color: lightgray;
+   text-align: right;
+}
+
+.sectionTwo .partOne>div:first-child {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sectionTwo .partTwo>div:last-child {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.sectionTwo>div.partOne {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3rem;
+}
+
+.sectionTwo>div.partTwo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3rem;
+   margin-top: 1.2rem;
+}
+
+.sectionTwo>a {
+   color: black;
+   bottom: -2rem;
+   left: 0;
+   right: 0;
+   transition: all .4s;
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   border-radius: 2.5rem;
+   cursor: pointer;
+   font-weight: bold;
+   display: block;
+   position: absolute;
+   width: 15rem;
+   text-align: center;
+   box-shadow: 0 0 .5rem lightgrey;
+}
+
+.sectionTwo>a:hover {
+   color: white;
+   background-color: #ff497c;
+}
+
+.sectionThree {
+   position: relative;
+   margin-top: 12rem;
+}
+
+.sectionThree .mySwiper .swiper-slide {
+   color: black;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.sectionThree .mySwiper .swiper-slide img {
+   width: 100%;
+}
+
+.sectionThree .mySwiper .swiper-slide:hover>div>div {
+   height: 100%;
+   width: 100%;
+}
+
+.sectionThree .mySwiper .swiper-slide>div {
+   position: relative;
+}
+
+.sectionThree .mySwiper .swiper-slide>div>div {
+   position: absolute;
+   transition: all .4s;
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 75%;
+   background-color: white;
+   font-weight: bold;
+}
+
+.sectionThree::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: -8rem;
+   background-image: url('../img/vertical_line.png');
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionThree>div:first-child {
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   gap: 2.7rem;
+   display: flex;
+   margin-bottom: 2.7rem;
+}
+
+.sectionThree>div:first-child a {
+   cursor: pointer;
+   transition: all .4s;
+}
+
+.sectionThree>div:first-child a.active {
+   color: #ff497c;
+}
+
+.sectionFour {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   height: 100vh;
+   padding-bottom: 0;
+   flex-direction: row;
+}
+
+.sectionFour .person {
+   display: none;
+}
+
+.sectionFour h2 {
+   display: flex;
+   font-size: 2.2rem;
+   cursor: pointer;
+   width: 25.3rem;
+   opacity: 20.3%;
+   transition: all .4s;
+}
+
+.sectionFour h2:hover,
+.sectionFour h2.active {
+   opacity: 100%;
+}
+
+.sectionFour h2 span {
+   color: #ff497c;
+   margin-left: .3rem;
+}
+
+.sectionFour>h1 {
+   display: block;
+   transform: rotate(-90deg);
+   opacity: 10%;
+   font-weight: bold;
+   position: relative;
+   left: -5.3rem;
+   color: #ff497c;
+   font-size: 12rem;
+}
+
+.sectionFour>div:first-child {
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 0;
+   text-align: left;
+   position: absolute;
+   margin-right: 24rem;
+}
+
+.sectionFour .names {
+   margin-right: auto;
+}
+
+.sectionFour>div:first-child h2 {
+   cursor: pointer;
+   transition: all .4s;
+}
+
+.sectionFour>div:first-child h2:hover {
+   opacity: 100%;
+}
+
+.sectionFour>div img {
+   height: 100vh;
+   position: absolute;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+.sectionFour .socials {
+   margin-right: 1rem;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   right: 1rem;
+   top: 34%;
+}
+
+.sectionFour .socials svg {
+   padding: 1.2rem;
+   border: 2px solid;
+   border-radius: 100%;
+   color: white;
+   transition: all .4s;
+   cursor: pointer;
+   background-color: blue;
+}
+
+.sectionFour .socials a:last-child svg {
+   background-color: orangered;
+}
+
+.sectionFour .socials a:nth-child(2) svg {
+   background-color: #00cfff;
+}
+
+.sectionFour .socials a:nth-child(2):hover svg {
+   color: #00cfff;
+   background-color: white;
+}
+
+.sectionFour .socials a:nth-child(3):hover svg {
+   color: orangered;
+   background-color: white;
+}
+
+.sectionFour .socials svg:hover {
+   border: 2px solid lightgray;
+   color: blue;
+   background-color: white;
+}
+
+.sectionFour>a {
+   position: absolute;
+   color: white;
+   transition: all .4s;
+   border: 2px solid #ff497c;
+   left: 0;
+   right: 0;
+   bottom: -2rem;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   border-radius: 2.5rem;
+   font-weight: bold;
+   cursor: pointer;
+   width: 15rem;
+   display: block;
+   background-color: #ff497c;
+   z-index: 99;
+}
+
+.sectionFour>a:hover {
+   background-color: white;
+}
+
+.sectionFive {
+   padding-bottom: 10rem;
+   background-color: #f4f4f5;
+}
+
+.sectionFive>h3 {
+   margin-top: 0;
+   font-size: 2.2rem;
+   width: 44vw;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 13rem;
+   position: relative;
+   text-align: center;
+   padding-left: 6rem;
+   padding-right: 6rem;
+}
+
+.sectionFive>h3::before {
+   content: '';
+   left: 0;
+   right: 0;
+   top: 5rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.sectionFive>p {
+   color: gray;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1.5rem;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   text-align: center;
+   position: relative;
+}
+
+.sectionFive>p::before {
+   content: '';
+   left: 0;
+   right: 0;
+   bottom: -8rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.sectionFive>div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2.5rem;
+   margin-top: 10rem;
+}
+
+.sectionFive>div>div {
+   position: relative;
+   overflow: hidden;
+   transition: all .4s;
+}
+
+.sectionFive>div>div img {
+   z-index: -20;
+   width: 100%;
+}
+
+.sectionFive>div>div:hover>div {
+   top: 0;
+}
+
+.sectionFive>div>div>div {
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: -43rem;
+   height: 100%;
+   transition: all .4s;
+   display: flex;
+   flex-direction: column;
+   font-weight: bold;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   z-index: 20;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: 1rem;
+   background-image: url('../img/book-hov-3.PNG');
+}
+
+.sectionFive .bg-book2 {
+   background-image: url('../img/book-hov-2.png');
+}
+
+.sectionFive .bg-book3 {
+   background-image: url('../img/book-hov-1.png');
+}
+
+.sectionFive .first-a {
+
+   transition: all .4s;
+   font-size: 1.5rem;
+   color: black;
+   cursor: pointer;
+}
+
+.sectionFive h4 {
+   color: gray;
+   font-size: 1.1rem;
+}
+
+.sectionFive .second-a {
+   transition: all .4s;
+   cursor: pointer;
+   color: #ff497c;
+}
+
+.sectionFive .second-a:hover {
+   color: black;
+}
+
+.sectionFive>a {
+   position: relative;
+   text-align: center;
+   color: black;
+   transition: all .4s;
+   background-color: transparent;
+   border: 2px solid pink;
+   margin-top: 11rem;
+   margin-bottom: 10rem;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1.5rem 2rem;
+   border-radius: 2.5rem;
+   cursor: pointer;
+   font-weight: bold;
+   width: 15rem;
+   display: block;
+}
+
+.sectionFive>a::before {
+   content: '';
+   left: 0;
+   right: 0;
+   top: -8rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.sectionFive>a::after {
+   content: '';
+   left: 0;
+   right: 0;
+   bottom: -8rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.sectionFive>a:hover {
+   color: white;
+   background-color: #ff497c;
+}
+
+.sectionSix {
+   position: relative;
+   padding-bottom: 13rem;
+   background-attachment: fixed;
+   padding-left: 9rem;
+   padding-right: 9rem;
+   text-align: center;
+   background-image: url('../img/texture_dark.JPG');
+}
+
+.sectionSix::before {
+   content: '';
+   left: 0;
+   right: 0;
+   top: 9rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.sectionSix::after {
+   content: '';
+   left: 0;
+   right: 0;
+   bottom: 6rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.testimonialSwiper {
+   position: absolute;
+   top: -11rem;
+   width: 100%;
+   left: 0;
+   right: 0;
+   /* absolute -top-32 */
+}
+
+.testimonialSwiper {
+   width: 100%;
+   height: 100%;
+}
+
+.testimonialSwiper .swiper-slide {
+   text-align: center;
+   font-size: 1.1rem;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.testimonialSwiper .swiper-slide {
+   color: black;
+   background-color: white;
+   padding-top: 2.2rem;
+   padding-bottom: 2.2rem;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.testimonialSwiper .swiper-slide>div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+}
+
+.testimonialSwiper .swiper-slide h3 {
+   transition: all .4s;
+   cursor: pointer;
+   color: #ff497c;
+}
+
+.testimonialSwiper .swiper-slide h3:hover {
+   color: black;
+}
+
+.testimonialSwiper .swiper-slide h2 {
+   font-size: 1.1rem;
+   text-align: center;
+   transition: all .4s;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   margin-top: .5rem;
+   cursor: pointer;
+}
+
+.testimonialSwiper .swiper-slide img {
+   display: block;
+   margin: auto;
+   margin-top: 2.2rem;
+   margin-bottom: .5rem;
+}
+
+.testimonialSwiper2 .swiper-slide {
+   color: black;
+   padding-top: 2.2rem;
+   padding-bottom: 2.2rem;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.testimonialSwiper2 .swiper-slide>div {
+   font-weight: bold;
+   text-align: center;
+}
+
+.testimonialSwiper2 .swiper-slide img {
+   width: 18rem;
+   height: 18rem;
+   border-radius: 100%;
+   border: .5rem solid gray;
+   display: block;
+   margin: auto;
+}
+
+.testimonialSwiper2 .swiper-slide h6 {
+   color: #ff497c;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.testimonialSwiper2 .swiper-slide a {
+   cursor: pointer;
+   font-size: 1.75rem;
+   transition: all .4s;
+   color: white;
+}
+
+.testimonialSwiper2 .swiper-slide h5 {
+   color: gray;
+   font-size: 1.5rem;
+   margin-top: 3rem;
+   padding-left: 8.7rem;
+   padding-right: 8.7rem;
+}
+
+.sectionSix>a {
+   color: white;
+   border: 2px solid #ff497c;
+   border-radius: 2.5rem;
+   margin: auto;
+   left: 0;
+   right: 0;
+   bottom: -2.1rem;
+   width: 5rem;
+   height: 5rem;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   bottom: -40;
+   transition: all .4s;
+   background-color: #ff497c;
+}
+
+.sectionSix>a:hover {
+   background-color: white;
+   color: #ff497c;
+}
+
+.sectionSeven {
+   text-align: center;
+}
+
+.sectionSeven h3 {
+   font-size: 2.5rem;
+   width: 50%;
+   margin: auto;
+   margin-top: 20rem;
+   position: relative;
+}
+
+.sectionSeven h3::before {
+   content: '';
+   left: 0;
+   right: 0;
+   top: -11.3rem;
+   background-image: url('../img/vertical_line.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionSeven p {
+   color: transparent;
+   width: 50%;
+   margin: auto;
+   margin-top: 11.3rem;
+}
+
+.sectionSeven a {
+   position: relative;
+   color: black;
+   transition: all .4s;
+   background-color: transparent;
+   border: 2px solid #ff497c;
+   margin-top: 13rem;
+   margin-bottom: 10rem;
+   margin: auto;
+   padding: 1.5rem 2rem;
+   border-radius: 2.5rem;
+   font-weight: bold;
+   cursor: pointer;
+   width: 15rem;
+   display: block;
+   margin-bottom: 3.4rem;
+}
+
+.sectionSeven a::before {
+   content: '';
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   background-image: url('../img/vertical_line.png');
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+   top: -10rem;
+}
+
+.sectionSeven a::after {
+   content: '';
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   background-image: url('../img/vertical_line.png');
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+   bottom: -15.7rem;
+}
+
+.sectionSeven a:hover {
+   color: white;
+   background-color: #ff497c;
+}
+
+.sectionEight {
+   padding: 15rem 9rem;
+   display: flex;
+   gap: 10rem;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   padding-bottom: 13rem;
+   background-attachment: fixed;
+   text-align: center;
+   background-image: url('../img/texture_2.PNG');
+}
+
+.sectionEight::before {
+   content: '';
+   top: 0;
+   background-image: url('../img/dark_line_short.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionEight::after {
+   content: '';
+   bottom: 3.5rem;
+   background-image: url('../img/dark_line_short.png');
+   position: absolute;
+   width: 4px;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sectionEight>div>div:first-child {
+   border-radius: 100%;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 10rem;
+   height: 10rem;
+   padding: 2rem;
+   border: 4px solid gray;
+   margin: auto;
+}
+
+.sectionEight>div>div:hover img {
+   transform: scale(1.5);
+}
+
+.sectionEight>div>div img {
+   transition: all .4s;
+}
+
+.sectionEight>div h3 {
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-top: 1rem;
+}
+
+.sectionEight .description {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.sectionEight .firstSpan {
+   font-weight: bold;
+   color: black;
+}
+
+.sectionEight .secondSpan {
+   font-weight: bold;
+   color: grey;
+}
+
+.sectionEight .details {
+   margin-top: .5rem;
+   display: flex;
+   flex-direction: column;
+}
+
+footer>div>div:first-child {
+   position: relative;
+   background-attachment: fixed;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+   background-image: url('../img/texture_dark.JPG');
+}
+
+footer>div>div:first-child img {
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: -2.2rem;
+   margin: auto;
+}
+
+footer>div>div:first-child>div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   margin-top: 4rem;
+}
+
+footer>div>div:first-child>div a:first-child {
+   color: blue;
+}
+
+footer>div>div:first-child>div a:nth-child(2) {
+   color: rgb(0, 225, 255);
+}
+
+footer>div>div:first-child>div a:nth-child(3) {
+   color: orangered;
+}
+
+footer>div>div:first-child>div a:nth-child(4) {
+   color: red;
+}
+
+footer>div>div:first-child>div a:nth-child(5) {
+   color: rgb(40, 0, 254);
+}
+
+footer>div>div:first-child svg {
+   transition: all .4s;
+   cursor: pointer;
+}
+
+footer>div>div:first-child svg:hover {
+   color: white;
+   transform: translateY(-.5rem);
+}
+
+footer>div>div:last-child {
+   background-attachment: fixed;
+   color: white;
+   font-weight: bold;
+   font-size: 1.5rem;
+   text-align: center;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   background-image: url('../img/copyright_bg.jpg');
+}
+
+@media (max-width:1200px) {
+   header nav {
+      padding: .3rem .2rem;
+   }
+
+   header ul {
+      display: none;
+   }
+
+   header nav>div>a {
+      display: none;
+   }
+
+   header nav>div>svg {
+      display: block;
+   }
+
+   .topSwiper .swiper-slide img {
+      height: 100%;
+   }
+
+   .sectionOne {
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+   }
+
+   .sectionOne h3 {
+      width: auto;
+   }
+
+   .sectionOne>p {
+      width: auto;
+   }
+
+   .sectionOne>div {
+      grid-template-columns: auto auto;
+   }
+
+   .sectionTwo .partOne h3 {
+      margin-left: 0;
+   }
+
+   .sectionTwo .partTwo h3 {
+      margin-right: 0;
+   }
+
+   .sectionTwo .partOne p {
+      text-align: center;
+      font-size: 1rem;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+      width: 90%;
+   }
+
+   .sectionTwo .partTwo p {
+      text-align: center;
+      font-size: 17px;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+      width: 90%;
+   }
+
+   .sectionTwo .partTwo>div:last-child {
+      flex-direction: row-reverse;
+   }
+
+   .sectionTwo>div.partOne {
+      flex-direction: column;
+   }
+
+   .sectionTwo>div.partTwo {
+      flex-direction: column-reverse;
+   }
+
+   .sectionThree>div:first-child {
+      display: none;
+   }
+
+   .sectionFour {
+      flex-direction: column-reverse;
+      padding-bottom: 3.5rem;
+      height: auto;
+   }
+
+   .sectionFour .names {
+      margin: auto;
+   }
+
+   .sectionFour>div img {
+      position: static;
+      width: 100%;
+      height: auto;
+   }
+
+   .sectionFour>h1 {
+      display: none;
+   }
+
+   .sectionFour>div:first-child {
+      font-size: 1.2rem;
+      margin-top: 1.2rem;
+      text-align: center;
+      position: static;
+      margin-right: 0;
+   }
+
+   .sectionFour .socials {
+      display: none;
+   }
+
+   .sectionFive>h3 {
+      padding-left: 0;
+      padding-right: 0;
+      width: auto;
+   }
+
+   .sectionFive>p {
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      width: 90%;
+   }
+
+   .sectionFive>div {
+      flex-direction: column;
+   }
+
+   .sectionSix {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+   }
+
+   .sectionOne h3::before {
+      display: none;
+   }
+
+   .sectionSeven h3 {
+      width: auto;
+   }
+
+   .sectionSeven p {
+      width: auto;
+   }
+
+   .sectionEight {
+      flex-direction: column;
+   }
+
+   .testimonialSwiper2 .swiper-slide h5 {
+      padding-left: .5rem;
+      padding-right: .5rem;
+   }
+}
+
+@media (max-width:992px) {
+   .sectionOne>div {
+      grid-template-columns: auto;
+   }
+
+   .sectionFour h2 {
+      font-size: 1.2rem;
+      justify-content: center;
+      width: auto;
+   }
+
+   footer>div>div:last-child {
+      font-size: 1rem;
+   }
+
+   footer>div>div:first-child img {
+      width: 13.7rem;
+   }
+}
